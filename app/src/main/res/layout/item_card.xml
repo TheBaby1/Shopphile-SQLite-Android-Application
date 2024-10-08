@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    android:elevation="4dp">
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/brandName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="18dp"
+        android:text="Uniqlo"
+        android:textColor="@color/gray"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="50dp"
+        android:text="Relax Dry"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/productPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="100dp"
+        android:text="$49"
+        android:textColor="@color/yellow"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/addToCartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="115dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Add To Cart" />
+
+
+
+
+</androidx.cardview.widget.CardView>
+

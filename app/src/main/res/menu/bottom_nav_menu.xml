@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Home"
+        android:id="@+id/homeNav"
+        android:icon="@drawable/baseline_home_24" />
+
+    <item android:title="Discover"
+        android:id="@+id/discoverNav"
+        android:icon="@drawable/baseline_manage_search_24" />
+
+    <item android:title="Like"
+        android:id="@+id/likeNav"
+        android:icon="@drawable/baseline_thumb_up_24" />
+
+    <item android:title="Account"
+        android:id="@+id/accountNav"
+        android:icon="@drawable/baseline_person_24" />
+
+</menu>
