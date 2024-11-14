@@ -35,6 +35,8 @@ public class CartActivity extends AppCompatActivity {
         cartAdapter = new CartAdapter(cartItems, dbHandler);
         recyclerView.setAdapter(cartAdapter);
 
+        updateCartItems();
+
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,5 +55,11 @@ public class CartActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    private void updateCartItems() {
+        List<Item> cartItems = dbHandler.getAllCartItems();
+        cartAdapter = new CartAdapter(cartItems, dbHandler); // Pass both cartItems and dbHandler
+        recyclerView.setAdapter(cartAdapter);
     }
 }
