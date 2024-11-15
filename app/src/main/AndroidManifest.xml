@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Shopphile_SQLITE_Final_Ensomo"
         tools:targetApi="31">
         <activity
+            android:name=".LoginActivityFirebase"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
